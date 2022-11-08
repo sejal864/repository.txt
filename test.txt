@@ -1,0 +1,274 @@
+ Design a web page using different text formatting tags.
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EXP1a</title>
+</head>
+<body>
+    <p>This is <b>bold text</b>.</p>
+    <p>This is <strong>strongly important text</strong>.</p>
+    <p>This is <i>italic text</i>.</p>
+    <p>This is <em>emphasized text</em>.</p>
+    <p>This is <mark>highlighted text</mark>.</p>
+    <p>This is <code>computer code</code>.</p>
+    <p>This is <small>smaller text</small>.</p>
+    <p>This is <sub>subscript</sub> and <sup>superscript</sup> text.</p>
+    <p>This is <del>deleted text</del>.</p>
+    <p>This is <ins>inserted text</ins>.</p>
+</body>
+</html>
+
+Design a web page with links to different pages and allow navigation between web pages include all type of       
+         b=navigation facility a. link,image
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EXP1b</title>
+</head>
+<body>
+    <div><a href="https://www.youtube.com/watch?v=sHWenPwaJcQ">Youtube</a></div>
+    <div><a href="https://classroom.google.com/u/0/c/NTI2MTA0MDcxMTc0">Google</a></div>
+    <img src="img3.jpg" alt="flower">
+</body>
+</html>
+
+Design the personal Information page using above tags.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EXP1c</title>
+</head>
+<body>
+    <h1 style="color: mediumblue;text-align:center;">MY BIODATA</h1>
+    <hr>
+    <p>
+        <li>
+        <b>Name: </b>YASH BHOSALE.<br>
+        <b>Education: </b>Pursuing bachelors degree<br>
+        <b>Skills: </b> HTML, CSS, JAVA, PYTHON<br>
+        <b>Hobbies: </b> <ul>
+            <li>Travelling</li>
+            <li>Gaming</li>
+            <li>Trekking</li>
+        </ul><br>
+        <b>Interest: </b> Web Development
+    </li>
+    <br>
+    <style>
+        table,th,td{
+            border:1px solid black;
+        }
+        </style>
+        <body>
+        
+
+        <table style="width: 50%;">
+            <tr>
+                <th>Hobbies</th>
+                <th>Interest</th>
+            </tr>
+            <tr>
+                <td>Trekking</td>
+                <td>Web Development</td>
+            </tr>
+            <tr>
+                <td>Travelling</td>
+                <td>A.I</td>
+            </tr>
+        </table>
+    </p>
+</body>
+</html>
+
+Design a web page demonstrating different semantic elements
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EXP1d</title>
+</head>
+<body>
+    <section>
+        <p>Top Stories</p>
+        <section>
+          <p>News</p>
+          <article>Story 1</article>
+          <article>Story 2</article>
+          <article>Story 3</article>
+        </section>
+        <section>
+          <p>Sport</p>
+          <article>Story 1</article>
+          <article>Story 2</article>
+          <article>Story 3</article>
+        </section>
+      </section>
+      <header>
+        <h1>Company A</h1>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact us</a></li>
+        </ul>
+        <form target="/search">
+          <input name="q" type="search" />
+          <input type="submit" />
+        </form>
+      </header>
+      <hgroup>
+        <h1>Heading 1</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+      </hgroup>
+      <time datetime="2022-10-04T11:21:00+02:00">Tuesday, 04 October 2022</time>
+</body>
+</html>
+
+Design a web page with a form that uses all types of controls say feedback form, complain form,user infomation form, admission form etc.
+<html>
+<head>
+<title>
+Feedback Form
+</title>
+</head>
+<body bgcolor="sky blue">
+<center>
+   
+	<h1 align="center"><U>Student Feedback</U></h1> 
+	<h3 align="center">Please provide your feedback below:</h3>
+   <form method="post">
+     <p align="center">SEMESTER 4</p>
+     <hr><br><br>
+     <b>Subject: </b>
+       <select name="sub" style="width:100px;">
+	  <option value="CNND" selected="selected">CNND</option>
+	  <option value="OS">OS</option>
+	  <option value="COA">COA</option>
+	  <option value="AT">AT</option>
+	  <option value="ENGG MATHS 4">ENGG MATHS 4</option>
+       </select><br><br>
+     <b>Teacher Name: </b>
+     <select name="teachername" style="width:200px;">
+	<option>Dhanashree Shukla</option>
+	<option>Jagat Gaydhane</option>
+	<option>Geeta Arvindekar</option>
+	<option>Deepali Kadam</option>
+	<option>Narhari Warade</option>
+     </select>	
+     <br><br>
+
+     <b>Personality :</b>
+     <br><br>
+	<input type="radio" name="f1" value="1">Bad 
+	<input type="radio" name="f1" value="2">Average 
+	<input type="radio" name="f1" value="3">Good 
+	<input type="radio" name="f1" value="4">Very Good 
+	<input type="radio" name="f1" value="5">Excellent 
+     <br><br>
+
+     <b>Subjective Knowledge :</b>
+     <br><br>
+	<input type="radio" name="f2" value="1">Bad 
+	<input type="radio" name="f2" value="2">Average 
+	<input type="radio" name="f2" value="3">Good 
+	<input type="radio" name="f2" value="4">Very Good 
+	<input type="radio" name="f2" value="5">Excellent 
+     <br><br> 
+
+     <b>Attitute towards college property :</b>
+     <br><br>
+	<input type="radio" name="f3" value="1">Bad 
+	<input type="radio" name="f3" value="2">Average 
+	<input type="radio" name="f3" value="3">Good 
+	<input type="radio" name="f3" value="4">Very Good 
+	<input type="radio" name="f3" value="5">Excellent 
+     <br><br>
+
+     <b>Amount of knowledge you get :</b>
+     <br><br>
+	<input type="radio" name="f4" value="1">Bad 
+	<input type="radio" name="f4" value="2">Average 
+	<input type="radio" name="f4" value="3">Good 
+	<input type="radio" name="f4" value="4">Very Good 
+	<input type="radio" name="f4" value="5">Excellent 
+     <br><br>
+
+     <b>Puntuality in coming class :</b>
+     <br><br>
+	<input type="radio" name="f5" value="1">Bad 
+	<input type="radio" name="f5" value="2">Average 
+	<input type="radio" name="f5" value="3">Good 
+	<input type="radio" name="f5" value="4">Very Good 
+	<input type="radio" name="f5" value="5">Excellent 
+     <br><br>
+
+     <b>His/Her capability of controlling Mass :</b>
+     <br><br>
+	<input type="radio" name="f6" value="5">Excellent
+  <br><br>
+
+   </form>
+   </div>
+  </center>
+</body>
+</html>
+  
+  
+  
+  <!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML CSS</title>
+   </head>
+
+   <body>
+      <p style = "color:green; font-size:24px;" >Hello, World!</p>
+      <p class = "red">This is red</p>
+      <p class = "thick">This is thick</p>
+      <p class = "green">This is green</p>
+      <p class = "thick green">This is thick and green</p>
+   </body>
+</html>
+	<input type="radio" name="f6" value="2">Average 
+	<input type="radio" name="f6" value="3">Good 
+	<input type="radio" name="f6" value="4">Very Good 
+	<input type="radio" name="f6" value="5">Excellent 
+     <br><br>
+
+   </form>
+   </div>
+  </center>
+</body>
+</html>
+
+Design a web page demonstrating all style sheet types
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML CSS</title>
+   </head>
+
+   <body>
+      <p style = "color:green; font-size:24px;" >Hello, World!</p>
+      <p class = "red">This is red</p>
+      <p class = "thick">This is thick</p>
+      <p class = "green">This is green</p>
+      <p class = "thick green">This is thick and green</p>
+   </body>
+</html>
+
+Design a web page embedding with multimedia features to the form u designed
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> embedding media</title>
+  </head>
+  <body>
+    <h1> embedding media</h1>
+    <hr>
+    <embed src="my-video.mp4" width="300" height="300"></embed>
+  </body>
+</html>
+
